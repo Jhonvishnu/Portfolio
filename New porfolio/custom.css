@@ -1,0 +1,81 @@
+
+body{
+  background: rgb(128,128,138);
+background: linear-gradient(90deg, rgba(128,128,138,1) 0%, rgba(169,167,221,1) 11%, rgba(168,168,231,1) 35%, rgba(0,212,255,1) 100%);
+}
+.pages {
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+.card img{
+    border: solid 1px;
+    border-radius: 20px;
+    margin: 0px auto;
+    position: relative;
+    top: -60px;
+    background: antiquewhite;
+  }
+
+ 
+  .nav i {
+    font-size: 3rem; /* Adjust the font size as needed */
+    margin: auto;
+    padding: 0 30px; /* Adjust padding as needed */
+}
+
+.nav-list {
+    background: #fff;
+    border-radius: 20px;
+    width: 100%; /* Full width of the container */
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-item {
+    border: 1px solid aqua;
+    border-radius: 20px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px; /* Adjust padding as needed */
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 1.2rem !important; /* Adjust font size as needed */
+    font-weight: bold !important;
+    color: #000 !important;
+}
+
+.nav-item:hover, .nav-item:focus{
+  background-color: rgba(73, 212, 73, 0.603);
+}
+
+.nav-link:hover, .nav-link:focus{
+  color: #0a58ca !important;
+}
+
+.Profile-card .card {
+  padding: 30px;
+}
+.Profile-card .card i{
+  font-size: xx-large;
+  padding: 0px 20px;
+}
+.Profile-card .card li{
+  list-style:none;
+}
+
+li.loc_title {
+  font-size: larger;
+  font-weight: bold;
+}
+span#proffesional {
+  font-size: -webkit-xxx-large;
+}
+.social_media i{
+  font-size: xx-large;
+  padding:0px 10px;
+  cursor: pointer;
+}
